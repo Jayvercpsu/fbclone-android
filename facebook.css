@@ -1,0 +1,179 @@
+@font-face {
+  font-family: suditya;
+  src: url(Bold.otf);
+}
+
+body {
+  font-size: 13pt;
+}
+
+.whole {
+  width: 357px;
+  background: url(facebook.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  text-align: center;
+  margin-left: 37%;
+  margin-top: 50px;
+}
+.sk2 {
+  float: right;
+  position: relative;
+  right: -2px;
+  background-color: #fffbe2;
+  width: 307px;
+  height: 27px;
+  padding: 5px;
+  color: #435a86;
+  font-size: 14px;
+  top: 8px;
+}
+
+.sk {
+  width: 40px;
+  height: 40px;
+}
+.whole strong {
+  position: relative;
+  top: 14px;
+  color: #2078e6;
+  font-size: 32px;
+  font-family: suditya;
+}
+#email {
+  position: relative;
+  top: 32px;
+  width: 305px;
+  height: 24px;
+  border: 1px solid #969696;
+  border-radius: 4px;
+  background-color: #f5f6f8;
+  padding: 8px;
+}
+
+#pass {
+  position: relative;
+  top: 34.5px;
+  width: 305px;
+  height: 24px;
+  border: 1px solid #969696;
+  border-radius: 4px;
+  background-color: #f5f6f8;
+  padding: 8px;
+}
+
+.sub {
+  position: relative;
+  top: 50px;
+  width: 322px;
+  height: 41px;
+  border: 1px solid;
+  border-radius: 4px;
+  background-color: #1878f3;
+  color: white;
+  padding: 8px;
+  font-size: 18px;
+}
+.f {
+  text-align: center;
+  color: #2078e6;
+}
+.f2 {
+  position: relative;
+  top: 70px;
+}
+.fb2 {
+  text-align: center;
+}
+
+.fp {
+  position: relative;
+  top: 64px;
+  font-size: 15px;
+}
+hr {
+  position: relative;
+  top: 90px;
+}
+
+.new {
+  text-align: center;
+}
+
+.new2 {
+  position: relative;
+  top: 104px;
+  left: 88px;
+  width: 150px;
+  height: 21px;
+  border: 1px solid green;
+  border-radius: 4px;
+  background-color: green;
+  color: white;
+  padding: 8px;
+  font-size: 15px;
+}
+.new2 a {
+  color: white;
+}
+.last {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 285px;
+  font-size: 11px;
+}
+.s1 {
+  float: left;
+  position: relative;
+  left: 80px;
+}
+.s2 {
+  float: right;
+  position: relative;
+  right: 80px;
+}
+
+.fi {
+  text-align: center;
+  font-size: 11px;
+}
+
+.fi2 {
+  position: relative;
+  top: 357px;
+}
+
+.y {
+  background-color: #fffbe2;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Josefgin Sans", sans-serif;
+}
+.copy {
+  animation-name: color;
+  animation-duration: .6s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color {
+  0% {
+    color: blue;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: orange;
+  }
+  75% {
+    color: purple;
+  }
+  100% {
+    color: green;
+  }
+}
